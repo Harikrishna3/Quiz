@@ -335,7 +335,7 @@ const quizData = [
          "They are networked set of embedded systems",
          "All of the above",
       ],
-      answer: "They are networked set of embedded systems",
+      correctAnswer: "They are networked set of embedded systems",
    },
    {
       question:
@@ -346,7 +346,8 @@ const quizData = [
          "Connection, Communication, Cyber, Carrier, Configuration",
          "Connection, Conversion, Cyber, Cognition, Carrier",
       ],
-      answer: "Connection, Communication, Cyber, Cognition, Configuration",
+      correctAnswer:
+         "Connection, Communication, Cyber, Cognition, Configuration",
    },
    {
       question: "What are Smart Sensors?",
@@ -356,25 +357,25 @@ const quizData = [
          "They are the kind of sensors which do not require a power source to operate.",
          "All of the above",
       ],
-      answer:
+      correctAnswer:
          "They are the integration of sensors and actuators with a processor and a communication module.",
    },
    {
       question:
          "Which of the following is an example of Collaboration platform",
       answers: ["Google Drive", "Outlook", "Backblaze", "ProWork Flow"],
-      answer: "ProWork Flow",
+      correctAnswer: "ProWork Flow",
    },
    {
       question:
          "State true or false — “PLM handles a product completely, from single part of the product to entire portfolio of that product”.",
       answers: ["True", "False"],
-      answer: "True",
+      correctAnswer: "True",
    },
    {
       question: "In PLM, how many phases does a product lifecycle have?",
       answers: ["3", "4", "5", "6"],
-      answer: "5",
+      correctAnswer: "5",
    },
    {
       question:
@@ -385,7 +386,7 @@ const quizData = [
          "Both (a) and (b)",
          "Neither (a) nor (b)",
       ],
-      answer: "Augmented Reality",
+      correctAnswer: "Augmented Reality",
    },
    {
       question: "What are the four different types of Augmented Reality?",
@@ -395,7 +396,7 @@ const quizData = [
          "Marker-Based, Non-immersive, Fully-immersive, Semi-immersive",
          "Marker-Based, Markerless, Projection Based, Superimposition Based",
       ],
-      answer:
+      correctAnswer:
          "Marker-Based, Markerless, Projection Based, Superimposition Based",
    },
    {
@@ -407,7 +408,7 @@ const quizData = [
          "Projection Based",
          "Superimposition Based",
       ],
-      answer: "Markerless",
+      correctAnswer: "Markerless",
    },
    {
       question:
@@ -479,7 +480,7 @@ const quizData = [
          "Web security",
          "Cybersecurity",
       ],
-      answer: "Cybersecurity",
+      correctAnswer: "Cybersecurity",
    },
    {
       question:
@@ -490,13 +491,13 @@ const quizData = [
          "Both (a) and (b)",
          "None of the above",
       ],
-      answer: "Software",
+      correctAnswer: "Software",
    },
    {
       question:
          "Q.3. State true or false — “Cybersecurity is recognized as a subset of information security”.",
       answers: ["True", "False"],
-      answer: "False",
+      correctAnswer: "False",
    },
    {
       question:
@@ -507,7 +508,7 @@ const quizData = [
          "It ensures the protection of applications from outer threats.",
          "All of the above",
       ],
-      answer:
+      correctAnswer:
          "It provides protection from unofficial access, improper use, fault, deletion, demolition",
    },
    {
@@ -518,7 +519,7 @@ const quizData = [
          "A computer program which provides a facility to the attacker in which the attacker locks the user’s computer files by using an encryption and demand some money to unlock them.",
          "None of the above",
       ],
-      answer:
+      correctAnswer:
          "A computer program which is used to disturb the computer user, such as computer viruses, spyware etc.",
    },
    {
@@ -529,7 +530,7 @@ const quizData = [
          "Software-Developed Cloud Management Architecture",
          "Software-Defined Cloud Manufacturing Architecture",
       ],
-      answer: "Software-Defined Cloud Management Architecture",
+      correctAnswer: "Software-Defined Cloud Management Architecture",
    },
    {
       question:
@@ -540,7 +541,7 @@ const quizData = [
          "Advance sensing, connectivity, and IT tools and methodologies",
          "Ubiquitous sensing, connectivity, and advanced analytics",
       ],
-      answer:
+      correctAnswer:
          "Ubiquitous sensing, advanced analytics, and IT tools and methodologies",
    },
    {
@@ -1252,7 +1253,7 @@ const quizData = [
    },
    {
       question:
-         "Which of the following answers is/are valid for the Julia programming language?",
+         "Which of the following options is/are valid for the Julia programming language?",
       answers: [
          "Use println() is used to print",
          "Variables can be assigned without defining the type",
@@ -1378,7 +1379,7 @@ const quizData = [
    },
    {
       question:
-         "Select the correct cyber attacker class(es) from the following answers.",
+         "Select the correct cyber attacker class(es) from the following options.",
       answers: [
          "Outsourced firms",
          "Internal unethical employees",
@@ -1393,10 +1394,10 @@ const quizData = [
       answers: [
          "Data spoofing",
          "SQL injection",
-         "All of the answers",
+         "All of the options",
          "Reversal attack",
       ],
-      correctAnswer: "All of the answers",
+      correctAnswer: "All of the options",
    },
    {
       question:
@@ -1415,10 +1416,10 @@ const quizData = [
       answers: [
          "Data spoofing",
          "Reversal attack",
-         "None of the answers",
+         "None of the options",
          "Impersonation attack",
       ],
-      correctAnswer: "None of the answers",
+      correctAnswer: "None of the options",
    },
    {
       question: "What is/are the benefit(s) of making factory smart?",
@@ -1519,19 +1520,19 @@ const quizData = [
    {
       question:
          "Which parameter is monitored by the device developed by Dexcom?",
-      answerChoices: ["ECG", "Blood", "Glucose", "Respiration rates"],
+      answers: ["ECG", "Blood", "Glucose", "Respiration rates"],
       correctAnswer: "Glucose",
    },
    {
       question:
          "“Asthma is lifelong disease, can be controlled, not cured” __ state whether the following statement is true or false.",
-      answerChoices: ["True", "False"],
+      answers: ["True", "False"],
       correctAnswer: "True",
    },
    {
       question:
          "Which of the following parameter(s) is/are monitored by ADAMM?",
-      answerChoices: [
+      answers: [
          "Asthma",
          "Blood pressure",
          "Body temperature",
@@ -1541,7 +1542,7 @@ const quizData = [
    },
    {
       question: "Select the correct option (s) from the below.",
-      answerChoices: [
+      answers: [
          "Google Fit: Keeps track of different physical activities",
          "Health Assistant: Keeps track of health condition",
          "Fingerprint Thermometer: Determine body temperature from the fingerprint",
@@ -1552,7 +1553,7 @@ const quizData = [
    {
       question:
          "Which of the following feature(s) act(s) as the drivers of IIoT in a power plant?",
-      answerChoices: [
+      answers: [
          "Low cost powerful chips",
          "Standardization with IPV6",
          "Standardization with software technology",
@@ -1563,7 +1564,7 @@ const quizData = [
    {
       question:
          "Which option(s) is/are included in the power flow of a smart grid?",
-      answerChoices: [
+      answers: [
          "Reduced changeover time",
          "Reduced production time",
          "Flexibility and easy management",
@@ -1573,7 +1574,7 @@ const quizData = [
    },
    {
       question: "Inventory management activity entails ____.",
-      answerChoices: [
+      answers: [
          "Controlling, overseeing, and ordering",
          "Storage",
          "Determine supply for sale",
@@ -1583,13 +1584,13 @@ const quizData = [
    },
    {
       question: "What is/are the component(s) of a facility management system?",
-      answerChoices: ["Buildings", "Finance", "People", "All of the above"],
+      answers: ["Buildings", "Finance", "People", "All of the above"],
       correctAnswer: "All of the above",
    },
    {
       question:
          "The IoT-based remote patient health monitoring system is more ____.",
-      answerChoices: ["Robust", "Costly", "Secure", "All of the above"],
+      answers: ["Robust", "Costly", "Secure", "All of the above"],
       correctAnswer: "Robust",
    },
    //Week12
@@ -1767,7 +1768,7 @@ function showQuestion(questionData) {
    questionData.answers.forEach((answer) => {
       const button = document.createElement("button");
       button.innerText = answer;
-      button.classList.add("answer-button");
+      button.classList.add("correctAnswer-button");
       button.addEventListener("click", () => {
          checkAnswer(answer, questionData.correctAnswer);
       });
