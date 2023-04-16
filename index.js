@@ -329,7 +329,7 @@ const quizData = [
    {
       question:
          "Which of the following is true regarding Cyber-Physical Systems?",
-      options: [
+      answers: [
          "They are devices having information processing systems embedded into them.",
          "They are typically confined to a single device",
          "They are networked set of embedded systems",
@@ -340,7 +340,7 @@ const quizData = [
    {
       question:
          "What are the 5 Cs in the CPS “5C architecture” for Industry 4.0?",
-      options: [
+      answers: [
          "Connection, Conversion, Cyber, Cognition, Configuration",
          "Connection, Communication, Cyber, Cognition, Configuration",
          "Connection, Communication, Cyber, Carrier, Configuration",
@@ -350,7 +350,7 @@ const quizData = [
    },
    {
       question: "What are Smart Sensors?",
-      options: [
+      answers: [
          "They are the integration of sensors and actuators with a processor and a communication module.",
          "They are universal sensors which can sense a wide range of different stimuli.",
          "They are the kind of sensors which do not require a power source to operate.",
@@ -362,24 +362,24 @@ const quizData = [
    {
       question:
          "Which of the following is an example of Collaboration platform",
-      options: ["Google Drive", "Outlook", "Backblaze", "ProWork Flow"],
+      answers: ["Google Drive", "Outlook", "Backblaze", "ProWork Flow"],
       answer: "ProWork Flow",
    },
    {
       question:
          "State true or false — “PLM handles a product completely, from single part of the product to entire portfolio of that product”.",
-      options: ["True", "False"],
+      answers: ["True", "False"],
       answer: "True",
    },
    {
       question: "In PLM, how many phases does a product lifecycle have?",
-      options: ["3", "4", "5", "6"],
+      answers: ["3", "4", "5", "6"],
       answer: "5",
    },
    {
       question:
          "__ is direct/indirect views of physical world environments which are “augmented” with computer-generated superimposed images",
-      options: [
+      answers: [
          "Augmented Reality",
          "Virtual Reality",
          "Both (a) and (b)",
@@ -389,7 +389,7 @@ const quizData = [
    },
    {
       question: "What are the four different types of Augmented Reality?",
-      options: [
+      answers: [
          "Marker-Based, Markerless, Fully-immersive, Semi-immersive",
          "Marker-Based, Markerless, Non-immersive, Superimposition Based",
          "Marker-Based, Non-immersive, Fully-immersive, Semi-immersive",
@@ -401,7 +401,7 @@ const quizData = [
    {
       question:
          "__ augmented reality is commonly utilized for mapping directions.",
-      options: [
+      answers: [
          "Marker-based",
          "Markerless",
          "Projection Based",
@@ -473,7 +473,7 @@ const quizData = [
    {
       question:
          "Q.1. Protection of internet-connected systems from cyber-attacks is known as ___.",
-      options: [
+      answers: [
          "Network security",
          "Internet security",
          "Web security",
@@ -484,7 +484,7 @@ const quizData = [
    {
       question:
          "Q.2. In which category of countermeasure does an application firewall fall?",
-      options: [
+      answers: [
          "Hardware",
          "Software",
          "Both (a) and (b)",
@@ -495,13 +495,13 @@ const quizData = [
    {
       question:
          "Q.3. State true or false — “Cybersecurity is recognized as a subset of information security”.",
-      options: ["True", "False"],
+      answers: ["True", "False"],
       answer: "False",
    },
    {
       question:
          "Q.4. Which of the following is/are correct regarding network security?",
-      options: [
+      answers: [
          "It provides protection from unofficial access, improper use, fault, deletion, demolition",
          "It is an analytical action which categorizes information benefits.",
          "It ensures the protection of applications from outer threats.",
@@ -512,7 +512,7 @@ const quizData = [
    },
    {
       question: "Q.5. What is a malware?",
-      options: [
+      answers: [
          "A computer program which is used to disturb the computer user, such as computer viruses, spyware etc.",
          "A computer program which breaks security policy to get critical information, which is typically secured.",
          "A computer program which provides a facility to the attacker in which the attacker locks the user’s computer files by using an encryption and demand some money to unlock them.",
@@ -523,7 +523,7 @@ const quizData = [
    },
    {
       question: "Q.6. What is SDCMA stand for?",
-      options: [
+      answers: [
          "Software-Defined Cloud Management Architecture",
          "Software-Developed Cloud Manufacturing Architecture",
          "Software-Developed Cloud Management Architecture",
@@ -534,7 +534,7 @@ const quizData = [
    {
       question:
          "Q.7.What are the three key differences between IIoT and Automation?",
-      options: [
+      answers: [
          "Connectivity, advanced analytics, and IT tools and methodologies",
          "Ubiquitous sensing, advanced analytics, and IT tools and methodologies",
          "Advance sensing, connectivity, and IT tools and methodologies",
@@ -617,13 +617,13 @@ const quizData = [
    {
       question:
          "Q.1. Lumada is an IoT platform with advanced AI-based analytics. Which of the following companies created Lumada?",
-      options: ["Boeing", "Hitachi", "Amazon", "Google"],
+      answers: ["Boeing", "Hitachi", "Amazon", "Google"],
       correctAnswer: "Hitachi",
    },
    {
       question:
          "Q.2. Which type of reference architecture for IIoT enables quick device-to-device integrations, automated data delivery of applications within the buses, isolation of hierarchical subsystems, and integrations of sensors and actuators ??",
-      options: [
+      answers: [
          "Three-tier IIoT architecture",
          "Layered Databus IIoT architecture",
          "Gateway-based IIoT architecture",
@@ -634,7 +634,7 @@ const quizData = [
    {
       question:
          "Q.3. Values for customer segments in a Business Model can be categorized as _____.",
-      options: [
+      answers: [
          "Qualitative",
          "Quantitative",
          "Both a and b",
@@ -645,7 +645,7 @@ const quizData = [
    {
       question:
          "Q.4. Which of the following properties is/are part of the Outcome-based Business Model?",
-      options: [
+      answers: [
          "Customers are relieved from the responsibilities of ownership and maintenance.",
          "Businesses deliver to the customer the outcome that the product/service provides.",
          "It reduces the negotiation cycle.",
@@ -656,7 +656,7 @@ const quizData = [
    {
       question:
          "Q.5. In which of the business models does businesses virtually consolidate and share their IoT-enabled assets among multiple customers or with other business entities in exchange of revenue?",
-      options: [
+      answers: [
          "Asset-Sharing Model.",
          "Outcome-based Model.",
          "Subscription Model.",
@@ -667,7 +667,7 @@ const quizData = [
    {
       question:
          "Q.6. What is/are the challenges of implementing IoT-as-a-Service?",
-      options: [
+      answers: [
          "Product compatibility",
          "Better customer relation",
          "Reduced licensing cost",
@@ -677,7 +677,7 @@ const quizData = [
    },
    {
       question: "Q.7. Platform-as-a-Service is a type of_______________.",
-      options: [
+      answers: [
          "Cloud-based IIoT business model",
          "Service-oriented IIoT business model",
          "Process-oriented business model",
@@ -687,7 +687,7 @@ const quizData = [
    },
    {
       question: "Q.8. What is/are the challenges(s) of IIoT business model?",
-      options: [
+      answers: [
          "Lack of interoperability",
          "Data privacy and security",
          "Increased cost",
@@ -698,7 +698,7 @@ const quizData = [
    {
       question:
          "Q.9. Which one of the following is/are core competency(ies) of the Cloud-based IIoT business model?",
-      options: [
+      answers: [
          "Platform",
          "Data",
          "Software infrastructure",
@@ -708,7 +708,7 @@ const quizData = [
    },
    {
       question: "Q.10. Which of the following defines IIRA?",
-      options: [
+      answers: [
          "It is a standard architecture for IIoT systems",
          "It is a business model for IIoT",
          "It is a factory manufacturing IoT products",
@@ -718,7 +718,7 @@ const quizData = [
    },
    {
       question: "Q.11. What is the function of leading KPI?",
-      options: [
+      answers: [
          "Leading KPI is used to predict the economy",
          "Leading KPI is used to measure the changes in economy after it has begun",
          "Leading KPI is used as a technical indicator of the economy after it has begun",
@@ -728,7 +728,7 @@ const quizData = [
    },
    {
       question: "Q.12. What is Industrial Internet Consortium?",
-      options: [
+      answers: [
          "A for-profit organization for promotion of open standards",
          "A non-profit organization for promotion of open standards",
          "A software platform",
@@ -740,7 +740,7 @@ const quizData = [
    {
       question:
          "Q.13. Which of the following is/are not part of the IIRA Framework?",
-      options: [
+      answers: [
          "Stakeholder",
          "Viewpoint",
          "Architecture Frame",
@@ -750,12 +750,12 @@ const quizData = [
    },
    {
       question: "Q.14. How many viewpoints are there in the IIRA?",
-      options: ["6", "4", "5", "3"],
+      answers: ["6", "4", "5", "3"],
       correctAnswer: "4",
    },
    {
       question: "Q.15. What is Role in context of the Usage viewpoint of IIRA?",
-      options: [
+      answers: [
          "Describes the functional component of the task maps.",
          "Coordination of specific tasks",
          "Set of capacities assumed by an entity or organization",
@@ -766,7 +766,7 @@ const quizData = [
    {
       question:
          "What are the benefits of using sensor in industrial applications?",
-      options: [
+      answers: [
          "Real-time monitoring",
          "Improving visibility",
          "Remote diagnosis",
@@ -776,7 +776,7 @@ const quizData = [
    },
    {
       question: "What is the function of LM 35 sensor?",
-      options: [
+      answers: [
          "Analog temperature monitoring",
          "Digital temperature monitoring",
          "Analog humidity monitoring",
@@ -787,13 +787,13 @@ const quizData = [
    {
       question:
          "ADXL335 sensor can generate the magnitude and direction of the acceleration. True or false?",
-      options: ["True", "False"],
+      answers: ["True", "False"],
       correctAnswer: "True",
    },
    {
       question:
          "MQ-2 sensor is used for measuring the concentration of which of the following gases ?",
-      options: [
+      answers: [
          "Helium, Argon, Neon",
          "Nitrogen, Hydrogen, Oxygen",
          "LPG, Propane, Hydrogen",
@@ -804,7 +804,7 @@ const quizData = [
    {
       question:
          "____ sensor is used to measure time-varying stresses and strains in ferromagnetic materials?",
-      options: [
+      answers: [
          "Torque",
          "Acceleration",
          "Magnetostrictive",
@@ -815,7 +815,7 @@ const quizData = [
    {
       question:
          "MOS is one of the electrical variations of gas sensing methods. What is the full form of MOS?",
-      options: [
+      answers: [
          "Metal Oxide Semiconductors",
          "Metal Oxide Sensing",
          "Monitoring Olfactory Sensor",
@@ -825,7 +825,7 @@ const quizData = [
    },
    {
       question: "What is/are the requirements of industrial communication?",
-      options: [
+      answers: [
          "Real-time communication",
          "Low latency",
          "Low jitter",
@@ -835,7 +835,7 @@ const quizData = [
    },
    {
       question: "Industrial Ethernet is used in scenarios that require _?",
-      options: [
+      answers: [
          "Clock synchronization",
          "Periodic I/O data transfer",
          "Local Area Network of field devices",
@@ -846,24 +846,24 @@ const quizData = [
    {
       question:
          "Profinet in industrial communication is based on which of the following technologies?",
-      options: ["Fieldbus", "Industrial Ethernet", "Profibus", "DeviceNet"],
+      answers: ["Fieldbus", "Industrial Ethernet", "Profibus", "DeviceNet"],
       correctAnswer: "Industrial Ethernet",
    },
    {
       question:
          "How many active connections or sockets are supported by ModBus-TCP, simultaneously?",
-      options: ["10", "8", "5", "254"],
+      answers: ["10", "8", "5", "254"],
       correctAnswer: "10",
    },
    {
       question:
          "Which of the following methods is used by EtherCat for bit error recognition?",
-      options: ["Hamming code", "CRC checksum", "Parity check", "Binary check"],
+      answers: ["Hamming code", "CRC checksum", "Parity check", "Binary check"],
       correctAnswer: "CRC checksum",
    },
    {
       question: "What is the full form of Profinet?",
-      options: [
+      answers: [
          "Process Field Network",
          "Public Field Network",
          "Process Full Network",
@@ -874,12 +874,12 @@ const quizData = [
    {
       question:
          "What is the maximum number of subscribers supported by the Interbus?",
-      options: ["512", "215", "125", "251"],
+      answers: ["512", "215", "125", "251"],
       correctAnswer: "512",
    },
    {
       question: "Select the statement that best describes Tactile Internet.",
-      options: [
+      answers: [
          "It enables haptic communication",
          "It enables real-time transmission of touch, sense and actuation",
          "Both a and b",
@@ -889,7 +889,7 @@ const quizData = [
    },
    {
       question: "What is the frequency spectrum for mmWave communication?",
-      options: ["30-300 GHz", "30-300 KHz", "30-300 MHz", "30-300 Hz"],
+      answers: ["30-300 GHz", "30-300 KHz", "30-300 MHz", "30-300 Hz"],
       correctAnswer: "30-300 GHz",
    },
    {
@@ -948,7 +948,7 @@ const quizData = [
    },
    {
       question: "What is/are the characteristic(s) of IIoT data?",
-      options: [
+      answers: [
          "Correlation in space, time and other dimensions",
          "Temporal and causal relationships in data",
          "Polymorphism",
@@ -959,7 +959,7 @@ const quizData = [
    {
       question:
          "What is the function of Rule-based engine in Complex Event Processing (CEP)?",
-      options: [
+      answers: [
          "Extract causal and temporal patterns using predefined rules",
          "Provides services according to device functionality",
          "Handle single data stream at a time",
@@ -971,13 +971,13 @@ const quizData = [
    {
       question:
          "Middleware is a software layer between infrastructure layer and application layer IIoT. True or false?",
-      options: ["True", "False"],
+      answers: ["True", "False"],
       correctAnswer: "True",
    },
    {
       question:
          "What are the different types of business processing analytics?",
-      options: [
+      answers: [
          "Industrial, private, public",
          "Descriptive, prescriptive, predictive",
          "Actuation and sensing",
@@ -988,7 +988,7 @@ const quizData = [
    {
       question:
          "What type of analytics is supported by MIDAS: IoT/M2M platform?",
-      options: [
+      answers: [
          "Batch analytics",
          "Runtime analytics",
          "Both a and b",
@@ -999,7 +999,7 @@ const quizData = [
    {
       question:
          "Industrial rechargeable sensor network uses ____ for grid-based routing and charging. Fill in the blanks.",
-      options: [
+      answers: [
          "Proactive algorithm",
          "Reactive algorithm",
          "Genetic algorithm",
@@ -1010,7 +1010,7 @@ const quizData = [
    {
       question:
          "What are the 4 major components of an industrial control system?",
-      options: [
+      answers: [
          "Set points, process variables, controllers, and manipulating variables",
          "Data plane, control plane, variables, and controllers",
          "Set points, dynamic points, variables, and controllers",
@@ -1022,13 +1022,13 @@ const quizData = [
    {
       question:
          "How many types of control loops are there in industrial control system?",
-      options: ["Two", "Four", "Three", "Six"],
+      answers: ["Two", "Four", "Three", "Six"],
       correctAnswer: "Two",
    },
    {
       question:
          "Which of the following types of industrial control systems is used for a highly distributed industrial plant?",
-      options: ["SCADA", "PLC", "DCS", "None of the above"],
+      answers: ["SCADA", "PLC", "DCS", "None of the above"],
       correctAnswer: "DCS",
    },
    {
@@ -1087,7 +1087,7 @@ const quizData = [
    },
    {
       question: "Fuzzy c-Means Clustering can be used when –",
-      options: [
+      answers: [
          "Data points may belong to more than one clusters",
          "Faster clustering is required",
          "Both a and b",
@@ -1098,7 +1098,7 @@ const quizData = [
    {
       question:
          "Which of the following statements is/are true about linear regression?",
-      options: [
+      answers: [
          "It is an unsupervised learning algorithm",
          "It is used to label the data",
          "It is use for prediction of values",
@@ -1109,7 +1109,7 @@ const quizData = [
    {
       question:
          "Select the machine learning-base IIoT application(s) used in the retail sector?",
-      options: [
+      answers: [
          "Drug discovery",
          "Product recommendation",
          "Dynamic price setup",
@@ -1119,7 +1119,7 @@ const quizData = [
    },
    {
       question: "Select the correct statement.",
-      options: [
+      answers: [
          "Artificial intelligence is a subset of machine learning",
          "Machine learning is a subset of deep learning",
          "Machine learning is a subset of artificial intelligence",
@@ -1129,7 +1129,7 @@ const quizData = [
    },
    {
       question: "What does deep in deep learning refer to?",
-      options: [
+      answers: [
          "Number of visible neurons",
          "Number of hidden layers",
          "Number of deep neurons",
@@ -1140,7 +1140,7 @@ const quizData = [
    {
       question:
          "What is/are the critical requirement(s) of deep learning applications?",
-      options: [
+      answers: [
          "Large amount of data",
          "High quality data",
          "Both a and b",
@@ -1151,18 +1151,18 @@ const quizData = [
    {
       question:
          "Which of the following is/are example(s) of Software-as-a-Service?",
-      options: ["MindSphere", "Microsoft Azure", "DropBox", "All of the above"],
+      answers: ["MindSphere", "Microsoft Azure", "DropBox", "All of the above"],
       correctAnswer: "DropBox",
    },
    {
       question: "What is/are the characteristic(s) of Good SLA?",
-      options: ["Achievable", "Meaningful", "Affordable", "All of the above"],
+      answers: ["Achievable", "Meaningful", "Affordable", "All of the above"],
       correctAnswer: "All of the above",
    },
    {
       question:
          "Which of the following is/are the limitation(s) of cloud-based approaches in IIoT?",
-      options: [
+      answers: [
          "Unlimited storage",
          "Interoperability",
          "Cost efficient",
@@ -1172,7 +1172,7 @@ const quizData = [
    },
    {
       question: "What are the advantages of using fog computing in IIoT?",
-      options: [
+      answers: [
          "Consistent release of data from sensors and machines",
          "Need for immediate action and quick response",
          "Data may be critical as well as time-sensitive",
@@ -1183,7 +1183,7 @@ const quizData = [
    {
       question:
          "Organize the elements of fog computing architecture in ascending order of data processing delay.",
-      options: [
+      answers: [
          "Industrial end devices, Fog devices, and Cloud",
          "Industrial end devices, Cloud, and Fog devices",
          "Cloud, Industrial end devices, and Fog Devices",
@@ -1194,7 +1194,7 @@ const quizData = [
    {
       question:
          "Which of the following is/are the characteristic(s) of fog-enabled IIoT?",
-      options: [
+      answers: [
          "Real-time monitoring and visualization",
          "Shrinkable processing architecture",
          "Increased overall cost",
@@ -1205,7 +1205,7 @@ const quizData = [
    {
       question:
          "What are the advantages of using fog-based architecture in the smart grid and power industry?",
-      options: [
+      answers: [
          "Dynamic demand of appliances",
          "Bi-directional communication between the consumer and supplier",
          "Advanced metering infrastructure for bi-directional communication",
@@ -1216,7 +1216,7 @@ const quizData = [
    {
       question:
          "Select the advantages of fog-based architecture in the oil and gas industry.",
-      options: [
+      answers: [
          "Offering real-time advanced operation",
          "Detection of unusual events",
          "Step by step automation",
@@ -1227,12 +1227,12 @@ const quizData = [
    {
       question:
          "Which of the following data type is used in the R programming language?",
-      options: ["Logical", "Float", "Double", "String"],
+      answers: ["Logical", "Float", "Double", "String"],
       correctAnswer: "Logical",
    },
    {
       question: "Which of the following option is correct?",
-      options: [
+      answers: [
          "e1071: Network analysis tools",
          "rpart: Regression tree etc",
          "nnet: Fuzzy clustering, support vector machine, naïve bayes classifier etc",
@@ -1242,7 +1242,7 @@ const quizData = [
    },
    {
       question: "Why is Julia programming used?",
-      options: [
+      answers: [
          "Open source",
          "Distributed computation and parallelism possible",
          "Support efficiently Unicode",
@@ -1252,8 +1252,8 @@ const quizData = [
    },
    {
       question:
-         "Which of the following options is/are valid for the Julia programming language?",
-      options: [
+         "Which of the following answers is/are valid for the Julia programming language?",
+      answers: [
          "Use println() is used to print",
          "Variables can be assigned without defining the type",
          "Assigning strings",
@@ -1263,7 +1263,7 @@ const quizData = [
    },
    {
       question: "Select the correct cloud computing service model (s).",
-      options: [
+      answers: [
          "Infrastructure-as-a-Service",
          "Sensing-as-a-Service",
          "Communication-as-a-Service",
@@ -1274,12 +1274,12 @@ const quizData = [
    {
       question:
          "Which of the following properties is/are valid for a data center network?",
-      options: ["Stable", "Secure", "Reliable", "All of the above"],
+      answers: ["Stable", "Secure", "Reliable", "All of the above"],
       correctAnswer: "All of the above",
    },
    {
       question: "What is SDN?",
-      options: [
+      answers: [
          "Restructuring the current network infrastructure for improved network management",
          "It is not a new technology – rather reshaping the current network architecture",
          "Control and data planes are decoupled from the traditional forwarding devices",
@@ -1289,7 +1289,7 @@ const quizData = [
    },
    {
       question: "Which of the following aspects is/are true for SDN?",
-      options: [
+      answers: [
          "Rule placement",
          "Controller placement",
          "Security",
@@ -1299,7 +1299,7 @@ const quizData = [
    },
    {
       question: "Select the correct application (s) of SDN.",
-      options: [
+      answers: [
          "WSN management",
          "IoT applications",
          "IIoT applications",
@@ -1310,7 +1310,7 @@ const quizData = [
    {
       question:
          "The mining industry uses ____ to load/unload mining materials.",
-      options: ["Conveyer-belt", "Roller", "Drum", "None of the above"],
+      answers: ["Conveyer-belt", "Roller", "Drum", "None of the above"],
       correctAnswer: "Conveyer-belt",
    },
    {
@@ -1378,7 +1378,7 @@ const quizData = [
    },
    {
       question:
-         "Select the correct cyber attacker class(es) from the following options.",
+         "Select the correct cyber attacker class(es) from the following answers.",
       answers: [
          "Outsourced firms",
          "Internal unethical employees",
@@ -1393,10 +1393,10 @@ const quizData = [
       answers: [
          "Data spoofing",
          "SQL injection",
-         "All of the options",
+         "All of the answers",
          "Reversal attack",
       ],
-      correctAnswer: "All of the options",
+      correctAnswer: "All of the answers",
    },
    {
       question:
@@ -1415,10 +1415,10 @@ const quizData = [
       answers: [
          "Data spoofing",
          "Reversal attack",
-         "None of the options",
+         "None of the answers",
          "Impersonation attack",
       ],
-      correctAnswer: "None of the options",
+      correctAnswer: "None of the answers",
    },
    {
       question: "What is/are the benefit(s) of making factory smart?",
@@ -1707,7 +1707,7 @@ const quizData = [
    {
       question:
          "Which of the following option correctly defines the first generation of UAVs?",
-      options: [
+      answers: [
          "Fundamental Remote Control UAVs of different forms",
          "Static design, fixing camera mount, still photography, video recording, and manual steering control",
          "Added two-axis gimbals, essential safety models. HD video, assisted guiding",
@@ -1717,7 +1717,7 @@ const quizData = [
    },
    {
       question: "In which area(s), UAV-based systems can be used?",
-      options: [
+      answers: [
          "Agriculture",
          "Construction Sites",
          "Mining",
@@ -1728,7 +1728,7 @@ const quizData = [
    {
       question:
          "Which of the following point(s) need to be considered for all industrial case studies?",
-      options: [
+      answers: [
          "Transformation of existing processes for Industry 4.0 adoption",
          "Assessment of existing processes",
          "Target objectives",
@@ -1739,7 +1739,7 @@ const quizData = [
    {
       question:
          "UAVs use recorded infrared, hyperspectral, and ultraviolet images to ____.",
-      options: [
+      answers: [
          "Monitor crop health",
          "Analyze soil quality",
          "Both a and b",
