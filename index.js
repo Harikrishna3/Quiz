@@ -1846,7 +1846,6 @@ nextButton.addEventListener("click", () => {
 //       showResult();
 //    }
 // });
-
 function nextA(){
    var assg=0,n=0,q=1;
    q++;
