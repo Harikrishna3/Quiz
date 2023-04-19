@@ -347,7 +347,7 @@ const quizData = [
          "Connection, Conversion, Cyber, Cognition, Carrier",
       ],
       correctAnswer:
-         "Connection, Communication, Cyber, Cognition, Configuration",
+         "Connection, Conversion, Cyber, Cognition, Configuration",
    },
    {
       question: "What are Smart Sensors?",
@@ -1757,6 +1757,7 @@ const answerButtonsContainer = document.getElementById(
 );
 const submitButton = document.getElementById("submit-button");
 const nextButton = document.getElementById("next-button");
+const nextAssign = document.getElementById("next-Assign");
 const resultContainer = document.getElementById("result-container");
 
 let currentQuestionIndex = 0;
@@ -1780,6 +1781,7 @@ function checkAnswer(selectedAnswer, correctAnswer) {
    var h3 = document.getElementById("demo");
    if (selectedAnswer === correctAnswer) {
       score++;
+
       h3.innerHTML = "Your Answer is Correct";
    } else {
       h3.innerHTML = `Correct Answer is: \n
@@ -1834,3 +1836,23 @@ nextButton.addEventListener("click", () => {
       showResult();
    }
 });
+
+// nextAssign.addEventListener("click", () => {
+//    var assg=0,n=0,q=1;
+//    q++;
+//    n=currentQuestionIndex%15;
+//    assg=14-n;
+//    currentQuestionIndex % 12==0 ? assg = 0 : assg++;
+//    currentQuestionIndex+=assg;
+//    var h2 = document.getElementById("assg");
+//    h2.innerHTML=`Assignment No ${q}`;
+//    if (currentQuestionIndex < quizData.length) {
+//       var h3 = document.getElementById("demo");
+//       h3.innerHTML = "";
+//       showQuestion(quizData[currentQuestionIndex]);
+//       submitButton.style.display = "inline-block";
+//       nextButton.style.display = "none";
+//    } else {
+//       showResult();
+//    }
+// });
