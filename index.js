@@ -1757,6 +1757,7 @@ const answerButtonsContainer = document.getElementById(
 );
 const submitButton = document.getElementById("submit-button");
 const nextButton = document.getElementById("next-button");
+const prevButton = document.getElementById("prev-button");
 const nextAssign = document.getElementById("next-Assign");
 const resultContainer = document.getElementById("result-container");
 
@@ -1802,6 +1803,7 @@ function checkAnswer(selectedAnswer, correctAnswer) {
       });
    submitButton.style.display = "none";
    nextButton.style.display = "inline-block";
+   prevButton.style.display = "inline-block";
 }
 
 function showResult() {
@@ -1809,6 +1811,7 @@ function showResult() {
    answerButtonsContainer.style.display = "none";
    submitButton.style.display = "none";
    nextButton.style.display = "none";
+  // prevButton.style.display = "none";
    resultContainer.style.display = "block";
    resultContainer.innerText = `You scored ${score} out of ${quizData.length} questions.`;
 }
@@ -1832,6 +1835,20 @@ nextButton.addEventListener("click", () => {
       showQuestion(quizData[currentQuestionIndex]);
       submitButton.style.display = "inline-block";
       nextButton.style.display = "none";
+     // prevButton.style.display = "none";
+   } else {
+      showResult();
+   }
+});
+prevButton.addEventListener("click", () => {
+   currentQuestionIndex--;
+   if (currentQuestionIndex < quizData.length) {
+      var h3 = document.getElementById("demo");
+      h3.innerHTML = "";
+      showQuestion(quizData[currentQuestionIndex]);
+      submitButton.style.display = "inline-block";
+      nextButton.style.display = "none";
+    //  prevButton.style.display = "none";
    } else {
       showResult();
    }
@@ -1873,14 +1890,11 @@ function nextA(){
    //    // var h3 = document.getElementById("demo");
    //    // h3.innerHTML = "";
       showQuestion(quizData[currentQuestionIndex]);
-   //    // submitButton.style.display = "inline-block";
-   //    // nextButton.style.display = "none";
+       submitButton.style.display = "inline-block";
+       nextButton.style.display = "none";
    } else {
       showResult();
    }
-
-
-
 }
 
 
