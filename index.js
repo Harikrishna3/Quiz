@@ -1453,6 +1453,17 @@ const quizData = [
       correctAnswer: "All of the above",
    },
    {
+      question:
+         "What is/are the major challenge(s) associated with the healthcare?",
+      answers: [
+         "Avoidable medical errors",
+         "Increasing age of the population",
+         "Costly hospitals and clinics",
+         "All of the above",
+      ],
+      correctAnswer: "All of the above",
+   },
+   {
       question: "What is/are the challenges associated with healthcare?",
       answers: [
          "Populations are aging all over the world",
@@ -1849,21 +1860,25 @@ nextButton.addEventListener("click", () => {
 
 function nextA(){
    var assg=0,n=0,q=1;
-   q++;
+
+   
+   console.log(q);
    n=currentQuestionIndex%15;
    assg=14-n;
-   currentQuestionIndex % 12==0 ? assg = 0 : assg++;
+   currentQuestionIndex % 15==0 ? assg = 0 : assg++;
    currentQuestionIndex+=assg;
    console.log(currentQuestionIndex);
    var h2 = document.getElementById("assg");
    h2.innerHTML=`Assignment No ${q}`;
    if (currentQuestionIndex < quizData.length) {
-      // var h3 = document.getElementById("demo");
-      // h3.innerHTML = "";
+   //    // var h3 = document.getElementById("demo");
+   //    // h3.innerHTML = "";
       showQuestion(quizData[currentQuestionIndex]);
-      // submitButton.style.display = "inline-block";
-      // nextButton.style.display = "none";
+   //    // submitButton.style.display = "inline-block";
+   //    // nextButton.style.display = "none";
    } else {
       showResult();
    }
+
+
 }
