@@ -530,7 +530,7 @@ const quizData = [
          "Software-Developed Cloud Management Architecture",
          "Software-Defined Cloud Manufacturing Architecture",
       ],
-      correctAnswer: "Software-Defined Cloud Management Architecture",
+      correctAnswer: "Software-Defined Cloud Manufacturing Architecture",
    },
    {
       question:
